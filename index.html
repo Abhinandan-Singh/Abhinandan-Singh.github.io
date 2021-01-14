@@ -3,24 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="scoreKeeper.css">
-    <title>Score Keeper</title>
+    <link rel="stylesheet" href="colorGame.css">
+    <title>Color Game</title>
 </head>
 <body>
-    <h1> <span id="p1s">0</span> to <span id="p2s">0</span></h1>
+    <h1>
+        AAV
+        <br>
+        <span id = "colorRGB"></span>
+        <br>
+        Color Game
+    </h1>
 
-    <p>Playing to : <span>5</span></p>
+    <div id = "strip">
+        <button id = "reset">New Colors</button>
+        <span id = "message"></span>
+        <button class = "mode">Easy</button>
+        <button class = "mode selected">Hard</button>
+    </div>
 
-    <input type="number">
-
-    <button id="p1">Player One</button>
-    <button id="p2">Player Two</button>
-    <button id="reset">Reset</button>
-
-
-
-    <script type="text/javascript" src="scoreKeeper.js"></script>
+    <div id = "container">
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+        <div class = "square"></div>
+    </div>
     
-    
+    <script type="text/javascript" src="colorGame.js"></script>
+
 </body>
 </html>
