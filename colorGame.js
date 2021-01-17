@@ -35,7 +35,7 @@ function refresh(){
     }
     h1.style.backgroundColor = "steelblue";
     messageDisplay.textContent = null;
-    this.textContent = "New Colors";
+    reset.textContent = "New Colors";
 }
 
 
